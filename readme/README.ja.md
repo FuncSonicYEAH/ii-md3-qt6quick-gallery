@@ -29,16 +29,12 @@ sudo dnf install qt6-qtbase-devel qt6-qtdeclarative-devel qt6-qtsvg-devel qt6-qt
 
 ```sh
 sudo pacman -S qt6-base qt6-declarative qt6-svg qt6-5compat base-devel meson ninja
-# フォント
-sudo pacman -S noto-fonts ttf-material-symbols-variable
 ```
 
 ### Debian / Ubuntu（apt）
 
 ```sh
 sudo apt install qt6-base-dev qt6-declarative-dev libqt6svg6-dev qt6-5compat-dev meson ninja-build g++ pkg-config
-# フォント
-sudo apt install fonts-noto-core fonts-noto-cjk fonts-noto-mono
 ```
 
 > Ubuntu では Qt 6 パッケージは `universe` リポジトリにあります。先に有効にしてください。

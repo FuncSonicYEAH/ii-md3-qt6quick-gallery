@@ -29,16 +29,12 @@ sudo dnf install qt6-qtbase-devel qt6-qtdeclarative-devel qt6-qtsvg-devel qt6-qt
 
 ```sh
 sudo pacman -S qt6-base qt6-declarative qt6-svg qt6-5compat base-devel meson ninja
-# 字型
-sudo pacman -S noto-fonts ttf-material-symbols-variable
 ```
 
 ### Debian / Ubuntu（apt）
 
 ```sh
 sudo apt install qt6-base-dev qt6-declarative-dev libqt6svg6-dev qt6-5compat-dev meson ninja-build g++ pkg-config
-# 字型
-sudo apt install fonts-noto-core fonts-noto-cjk fonts-noto-mono
 ```
 
 > 在 Ubuntu 上，Qt 6 的套件位於 `universe` 軟體庫中——請先啟用該軟體庫。
